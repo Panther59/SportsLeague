@@ -9,7 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatTabsModule } from '@angular/material';
+import { MatTabsModule, MatTooltipModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
@@ -60,6 +60,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
         MatSidenavModule,
         MatTabsModule,
         MatSliderModule,
+        MatTooltipModule,
         MatProgressBarModule,
     ],
 
